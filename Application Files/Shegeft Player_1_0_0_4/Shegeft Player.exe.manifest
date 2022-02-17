@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Shegeft Player.exe" version="1.0.0.4" publicKeyToken="3eedb01250ccd127" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Shegeft Player" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Shegeft Player.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Shegeft Player.exe" size="937984">
+      <assemblyIdentity name="Shegeft Player" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pQveSGlgIp323b+OGEY2vmXIBeyffTvY6x4di253BkA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="favicon.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R4ugys68pemJ1Lb2EnTJAXZ426ofjdVnmJdHGvq3mw8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Shegeft Player.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fzxBSr45tumrN8SNWWL0IeqRlxoh8+san/F4n6/GZJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Ardesh1R\ardeshir" issuerKeyHash="244a52304cafe11a14e26aeb538a71d775d4d048" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jWg1Xkag50aJM5pZHBOCDoETkaBRZtuxvILcxe8eoG8=</DigestValue></Reference></SignedInfo><SignatureValue>WnrZ64h4eK+9VpmlJKH5D49dqSgqaUBywXgL2TK2h+EglizqgvV/OcjQdq65GeYaDizrGdqtgUFTFr042IClC7Y1urpEol1O0M6ou6lglmL3g61hSCqiv1GRi6/vi+x/AhIC8YPmW3NUTpUoRKGKyciis26HAZqrjDIIVDlt4Kg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3NM+sPrRLeWDQx6f5BKx9vsggZuVD3nKGMsBzwoxibCciGMj3aqEsjyAKaiPlO7UFYOBO/DklgOBOqbbWCCliCTBLBQVYza/S6J0MPV+CpjAftuCa+TR8X6MlezcglXfT+zwBaPCOmcGYpwt8iU1t817bActUc5mmpz37BC7hiE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6fa01eefc5dc82bcb1db6651a09113810e82131c599a338946e7a0465e35688d" Description="" Url=""><as:assemblyIdentity name="Shegeft Player.exe" version="1.0.0.4" publicKeyToken="3eedb01250ccd127" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Ardesh1R\ardeshir</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3Bv1wDNFxsG2sPeMC3AzhBI3VmFxtHDXdJoO8wlm+nQ=</DigestValue></Reference></SignedInfo><SignatureValue>DIJPCh1ksNyfHe5X3TlaqCXKBrWmRSIsk/vAOMj/pQ3ZYbL0UqVsbX1HnH+xCVBsG9jG4L6D17T7Deqsv9AmE8NX4FkZaEpDjOr+Ktr9gipbg6BxZm2mSZO/F0KvqO1ETE1vIVfUFnCXpQ8bjB2Ku/pULuY26zlfGFaR7V2kdtY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3NM+sPrRLeWDQx6f5BKx9vsggZuVD3nKGMsBzwoxibCciGMj3aqEsjyAKaiPlO7UFYOBO/DklgOBOqbbWCCliCTBLBQVYza/S6J0MPV+CpjAftuCa+TR8X6MlezcglXfT+zwBaPCOmcGYpwt8iU1t817bActUc5mmpz37BC7hiE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQN/5wWMpS3LNGcLiz+1PFQTANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAQQByAGQAZQBzAGgAMQBSAFwAYQByAGQAZQBzAGgAaQByMB4XDTE2MTAyOTE0NDk0OFoXDTE3MTAyOTIwNDk0OFowLTErMCkGA1UEAx4iAEEAcgBkAGUAcwBoADEAUgBcAGEAcgBkAGUAcwBoAGkAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3NM+sPrRLeWDQx6f5BKx9vsggZuVD3nKGMsBzwoxibCciGMj3aqEsjyAKaiPlO7UFYOBO/DklgOBOqbbWCCliCTBLBQVYza/S6J0MPV+CpjAftuCa+TR8X6MlezcglXfT+zwBaPCOmcGYpwt8iU1t817bActUc5mmpz37BC7hiECAwEAATANBgkqhkiG9w0BAQsFAAOBgQA4z1RTjhCrKvgW3CpdFlc1heUJNGwekiENtBGTZ0x3/q8oZcvOlB4vxpkWqEnsB2/q3+k8PwwL8YOIuHSvxFUWAPhcRfcLr+mzW/Y3v1BGE1J3GzBHpibRlDuih+EV25izDT6CGeyXLmcHJax5yaS/64PV5J+n1TbjJB180leeiA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
