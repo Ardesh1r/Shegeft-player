@@ -18,3 +18,13 @@ Program features:
 ✔️ Choose your favorite theme
 
 ![Logo](https://github.com/Ardesh1r/Shegeft-player/blob/main/screenshot-02.PNG?raw=true)
+
+This program is coded using the following technologies:
+--------------------
+✔️ C# programming language
+
+✔️ windows-presentation-foundation (WPF)
+
+✔️ Visual Studio
+
+✔️ Windows Operating System (7, 8, 10)
