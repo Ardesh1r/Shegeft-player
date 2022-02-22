@@ -1,10 +1,10 @@
 # Shegeft-player
 This is a music player application for Windows devices and has a straightforward user experience.
 
-Program features:
-
 ![Logo](https://github.com/Ardesh1r/Shegeft-player/blob/main/screenshot-01.PNG?raw=true)
 
+Program features:
+----------------
 ✔️ Add single Audio track
 
 ✔️ Add multiple Audio tracks
